@@ -57,6 +57,49 @@ The main goal is to build a fully functional, testable, and stable banking syste
 - Loop-driven menu system  
 
 ---
+## Project Structure
+
+The project follows a modular design where each major banking feature is separated into its own source and header file.
+
+### Core Program
+- **main.c**  
+  Controls program flow, menus, and connects all modules together.
+
+### Account Module
+- **account.c**  
+  Logic for creating, logging in, and managing accounts.
+- **account.h**  
+  Function declarations and account-related structures.
+
+### Transaction Module
+- **transaction.c**  
+  Handles deposit, withdraw, balance checks, and transaction history.
+- **transaction.h**  
+  Transaction function declarations and structures.
+
+### Transfer Module
+- **transfer.c**  
+  Manages transfer contacts and e-transfers between users.
+- **transfer.h**  
+  Transfer-related function declarations.
+
+### File System Module
+- **file.c**  
+  Responsible for saving and loading accounts and transactions from files.
+- **file.h**  
+  File handling function declarations.
+
+### Validation & Stability Module
+- **validation.c**  
+  Handles safe input, error checking, and crash prevention.
+- **validation.h**  
+  Validation function declarations.
+
+### Data Storage
+- **data/accounts.dat**  
+  Stores account information.
+- **data/transactions.dat**  
+  Stores transaction history.
 
 
 ---
