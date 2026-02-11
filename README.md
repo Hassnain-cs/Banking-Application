@@ -58,5 +58,35 @@ The main goal is to build a fully functional, testable, and stable banking syste
 
 ---
 
-## Project Structure (Planned)
 
+---
+
+## Team Roles
+
+### Helen — Account System
+Responsible for user account creation, login system, password validation, and account management features.
+
+### Liana — Transactions
+Responsible for deposit, withdraw, balance display, and transaction history.
+
+### Hassnain — Transfers
+Responsible for contact management and money transfer between users.
+
+### Inshal — File Handling & Stability
+Responsible for saving/loading data, input validation, error handling, and ensuring the system does not crash.
+
+---
+
+## Development Approach
+
+The project is developed in structured phases:
+
+1. Setup and system design  
+2. Account system implementation  
+3. Transaction system implementation  
+4. Transfer system implementation  
+5. File handling and stability  
+6. Integration testing  
+7. Final bug fixes and cleanup  
+
+This step-by-step approach ensures all modules work together smoothly and the application remains reliable and testable.
