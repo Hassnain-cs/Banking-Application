@@ -90,3 +90,23 @@ The project is developed in structured phases:
 7. Final bug fixes and cleanup  
 
 This step-by-step approach ensures all modules work together smoothly and the application remains reliable and testable.
+
+```mermaid
+timeline
+    title Banking System Development Timeline
+
+    February : Project Setup & Struct Design
+             : File Structure Created
+             : Input Validation Base
+
+    Early March : Account System Complete (Helen)
+
+    Mid March : Transaction System Complete (Liana)
+
+    Mid–Late March : Transfer System Complete (Hassnain)
+
+    Late March : File Handling & Stability Complete (Inshal)
+
+    Early April : Integration Testing (All)
+
+    Before Submission : Final Bug Fixing & Code Cleanup
